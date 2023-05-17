@@ -184,30 +184,13 @@
     }
 }*/
 
-@media only screen and (max-width: 600px) {
-
-    body {background: red;}
+@media only screen and (max-width: 768px) {
+  footer .linea2 {
+    display: inline;
+    margin: 20px;
+  }
+  footer .linea2 div {
+    text-align: center;
+    margin:20px;
 }
-   
-
-@media only screen and (min-width: 600px) {
-
-        body {background: green;}
-}   
-
-
-@media only screen and (min-width: 768px) {
-    
-    body {background: blue;}
-} 
-
-
- @media only screen and (min-width: 992px) {
-        body {background: orange;}
 }
-
-@media only screen and (min-width: 1200px) {
-
-    body {background: pink;}
-}
-   
